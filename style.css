@@ -1,0 +1,111 @@
+.intro{
+    vertical-align: middle;
+    align-self: center;
+}
+.list a{
+    text-decoration: none;
+}
+.about{
+    text-align: center;
+    vertical-align: middle;
+}
+.skill-list{
+    vertical-align: middle;
+    align-self: center;
+}
+/* education */
+  /* graduation & 10th */
+  .work-info h5 {
+    font-size: 1.3em;
+    color: #f7e612;
+    margin-bottom: 0.5em;
+    border: 1px solid #e1d312;
+    display: inline-block;
+    padding: 0 1.2em;
+  }
+  .work-info h4 {
+    font-size: 1.2em;
+    background: darkcyan;
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    color: #fff;
+    position: relative;
+  }
+  
+  .work-info h4:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: -14px;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent rgb(0, 139, 139);
+  }
+  .work-info h5 {
+    font-size: 1.3em;
+    color: #f7e612;
+    margin-bottom: 0.5em;
+    border: 1px solid #f7e612;
+    display: inline-block;
+    padding: 5px 1.2em;
+  }
+  
+  .work-left {
+    text-align: right;
+    padding: 3em 6em 0 0;
+    float: left;
+  }
+  .work-right {
+    border-left: 1px solid #999;
+    padding: 2.5em 0 2em 6em;
+    float: right;
+  }
+  /* 12th */
+  .work-right.work-right2 {
+    min-height: 210px;
+    float: right;
+  }
+  .work-right.work-right2 h4 {
+    margin-top: 0.8em;
+  }
+  .work1 h5 {
+    padding: 0.8em 1.2em 0 1.2em;
+    padding: 5px 2em;
+  }
+  .work-right.work-right2 h4:before {
+    left: -14px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+  }
+
+
+  /* footer  */
+.footer {
+    background-color: #efefef;
+    padding: 25px 10px 12px 5px;
+  }
+/* tap to top  */
+#myBtn {
+    display: none;
+    position: fixed;
+    font-size: 16px;
+    bottom: 20px;
+    right: 22px;
+    border: none;
+    outline: none;
+    color: #029999;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    color: rgb(27, 219, 200);
+    transition: 0.2s;
+  }
+  
+  
